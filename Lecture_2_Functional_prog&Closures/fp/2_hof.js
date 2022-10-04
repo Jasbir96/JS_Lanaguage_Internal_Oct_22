@@ -3,7 +3,6 @@
 //     let greetMessage = cb(name);
 //     console.log("Hi", greetMessage)
 // }
-
 // //  
 // // greeter("Jhon Snow", printFirst);
 
