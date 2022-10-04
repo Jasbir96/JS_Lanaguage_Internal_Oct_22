@@ -19,3 +19,7 @@ function real() {
 function real() { 
     console.log("You both are wasted");
  }
+
+
+
+ 
