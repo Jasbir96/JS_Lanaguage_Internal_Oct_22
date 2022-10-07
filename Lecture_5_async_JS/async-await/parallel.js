@@ -5,12 +5,14 @@ console.log("Starting");
 
 // console.log(p1);
 // then and catch -> syntax sugar
+
 (async function (){
     try{
         let p1 = fs.promises.readFile("../f1.txt"); 
         let p2 = fs.promises.readFile("../f2.txt"); 
         let p3 = fs.promises.readFile("../f3.txt"); 
         // value of that resolved 
+        console.log("AFter this code will be send to apis area");
         let data = await p1;
         console.log("then", data.toString());
         data=await p2;
