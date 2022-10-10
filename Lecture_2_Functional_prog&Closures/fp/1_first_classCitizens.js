@@ -1,6 +1,5 @@
 // //  function statements
 // function fn(){
-
 // }
 // let obj={name:"Jasbir"};
 // let obj2=obj;

@@ -49,8 +49,6 @@
 // console.log(innerFunc())
 
 
-
-
 // Q3
 // function outer() {
 //     let arrFn = [];
@@ -84,7 +82,7 @@
 // arrFn[0]();
 // arrFn[1]();
 // arrFn[2]();
-//  output-> 3;
+//  output-> 3,3,3;
 
 // q5 
 // function outer() {

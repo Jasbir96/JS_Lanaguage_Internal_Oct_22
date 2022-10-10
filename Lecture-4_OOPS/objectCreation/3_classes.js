@@ -5,7 +5,6 @@ class Person {
         this.name = name;
         this.age = age;
     }
-
     printName() {
         console.log("Hi i am ", this.name);
     }

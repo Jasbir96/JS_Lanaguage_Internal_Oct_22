@@ -10,7 +10,7 @@
 // console.log(1+true);
 // console.log("1"+true);
 //  we are doing a numeric opr but the rest can't be 
-// repersented
+// represented
 console.log(1+undefined);
 console.log(1+Boolean(null));
 let a=2.1

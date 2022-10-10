@@ -17,18 +17,16 @@ function greeter(name, cb) {
     console.log("Hi", greetMessage)
 }
 //  
-// greeter("Jhon Snow", printFirst);
-
-// greeter("Robert Dicosta", printLastName);
-
-// function printFirst(firstName) {
-//     let arr = firstName.split(" ");
-//     return arr[0];
-// }
-// function printLastName(firstName) {
-//     let arr = firstName.split(" ");
-//     return arr[1];
-// }
+function printFirst(firstName) {
+    let arr = firstName.split(" ");
+    return arr[0];
+}
+function printLastName(firstName) {
+    let arr = firstName.split(" ");
+    return arr[1];
+}
+greeter("Jhon Snow", printFirst);
+greeter("Robert Dicosta", printLastName);
 
 
 // let arr = [1, 2, 3, 4, 5];

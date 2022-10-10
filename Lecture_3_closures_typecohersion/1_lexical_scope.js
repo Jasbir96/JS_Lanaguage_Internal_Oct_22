@@ -1,4 +1,4 @@
-// outer scope -> defined by your function definition -> lexcial scope
+// outer scope -> defined by your function definition -> lexical scope
 var varName = 10; 
 function b() {
     console.log(varName);

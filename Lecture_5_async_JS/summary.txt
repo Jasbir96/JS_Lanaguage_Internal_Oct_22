@@ -7,7 +7,7 @@
 # callBack -> will travel through queue  , event loop to callStack for execution
 
 # Callbacks
-    *  SOme problem with writing code cb -> 
+    *  Some problem with writing code cb -> 
         * nesting -> but could easily solved by linearzing cb fn
         * inversion of control -> cb will be called by the asyn fn -> can a third party lib
 # Promises:
